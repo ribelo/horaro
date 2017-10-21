@@ -1,0 +1,17 @@
+{
+  "name": "horaro",
+  "version": "0.0.1",
+  "author": "rafal@krzywaznia.com",
+  "main": "resources/electron.js",
+  "scripts": {
+    "watch": "webpack -d --watch",
+    "build": "webpack -p"
+  },
+  "dependencies": {
+    "react": "15.6.1",
+    "react-dom": "15.6.1",
+    "webpack": "1.13.1",
+    "react-lazy-load": "3.0.12",
+    "semantic-ui-react": "0.71.0"
+  }
+}

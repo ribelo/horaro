@@ -1,0 +1,19 @@
+html, body {
+    height: 100%;
+}
+
+#app {
+    height: 100%;
+}
+
+@media print {
+    .avoid-break {
+        page-break-after: always;
+        page-break-inside: avoid;
+        -webkit-region-break-inside: avoid;
+        position: relative
+    }
+    div {
+        overflow: initial !important
+    }
+}
